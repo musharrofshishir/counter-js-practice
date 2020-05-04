@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 56px;
+}
+
+.main-wrapper {
+  padding: 160px 0;
+}
+
+.main-wrapper .main-wrap .content-wrap {
+  text-align: center;
+}
+
+.main-wrapper .main-wrap .content-wrap .content button {
+  font-size: 86px;
+  width: 40%;
+  outline: none;
+  -webkit-box-shadow: 2px 12px 8px -6px rgba(0, 0, 0, 0.42);
+          box-shadow: 2px 12px 8px -6px rgba(0, 0, 0, 0.42);
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  -webkit-transition: .1s all;
+  transition: .1s all;
+}
+
+.main-wrapper .main-wrap .content-wrap .content button:active {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main-wrapper .main-wrap .content-wrap .content input {
+  font-size: 86px;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.main-wrapper .main-wrap .limiter {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

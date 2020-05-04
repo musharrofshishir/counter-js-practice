@@ -1,0 +1,48 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-header{
+    text-align: center;
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 56px;
+    }
+}
+
+.main-wrapper{
+    padding: 160px 0;
+    .main-wrap{ 
+        .content-wrap{
+            text-align: center;
+            .content{
+                button{
+                    font-size: 86px;
+                    width: 40%;
+                    outline: none;
+                    box-shadow: 2px 12px 8px -6px rgba(0,0,0,0.42);
+                    background-color: #f3f3f3;
+                    border-radius: 50%;
+                    transition: .1s all;
+                    &:active{
+                        transition-timing-function: ease-in-out;
+                        box-shadow: none;
+                    }
+                    
+                }
+                input{
+                    font-size: 86px;
+                    width: 100%;
+                    text-align: center;
+                    border: none;
+                }
+            }
+        }
+        .limiter{
+            text-align: center;
+            
+        }
+    }
+}

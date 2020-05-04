@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <!-- Bootstrap 4.4.1 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="main-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="section-header">
+                            <h1>Counter</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="content-wrap mt-5">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="content">
+                                        <button onclick="inc()" class="btn">+</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="content">
+                                        <input id="counter" readonly type="text" value="0" >
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="content">
+                                        <button onclick="dec()" class="btn">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="limiter mt-5">
+                            <input id="limit" type="text" value="" placeholder="Place a limit here" class="input-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- jQueyr 3.5.0 -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
