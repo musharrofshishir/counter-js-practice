@@ -13,7 +13,7 @@
 }
 
 .main-wrapper {
-  padding: 160px 0;
+  padding: 140px 0;
 }
 
 .main-wrapper .main-wrap .content-wrap {
@@ -22,7 +22,8 @@
 
 .main-wrapper .main-wrap .content-wrap .content button {
   font-size: 86px;
-  width: 40%;
+  min-width: 140px;
+  margin-bottom: 15px;
   outline: none;
   -webkit-box-shadow: 2px 12px 8px -6px rgba(0, 0, 0, 0.42);
           box-shadow: 2px 12px 8px -6px rgba(0, 0, 0, 0.42);
@@ -37,6 +38,8 @@
           transition-timing-function: ease-in-out;
   -webkit-box-shadow: none;
           box-shadow: none;
+  background-color: #007bff;
+  color: white;
 }
 
 .main-wrapper .main-wrap .content-wrap .content input {
@@ -48,5 +51,59 @@
 
 .main-wrapper .main-wrap .limiter {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wrapper .main-wrap .limiter input {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  padding-left: 18px;
+}
+
+.main-wrapper .main-wrap .limiter input::-webkit-input-placeholder {
+  opacity: .5;
+}
+
+.main-wrapper .main-wrap .limiter input:-ms-input-placeholder {
+  opacity: .5;
+}
+
+.main-wrapper .main-wrap .limiter input::-ms-input-placeholder {
+  opacity: .5;
+}
+
+.main-wrapper .main-wrap .limiter input::placeholder {
+  opacity: .5;
+}
+
+.main-wrapper .main-wrap .limiter input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.main-wrapper .main-wrap .limiter input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.main-wrapper .main-wrap .limiter input:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.main-wrapper .main-wrap .limiter input:focus::placeholder {
+  opacity: 0;
+}
+
+.main-wrapper .main-wrap .limiter button {
+  border-radius: 0 7px 7px 0;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.main-wrapper .main-wrap .limiter button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */

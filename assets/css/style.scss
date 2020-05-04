@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 .section-header{
     text-align: center;
     h1{
@@ -11,16 +10,16 @@
         font-size: 56px;
     }
 }
-
 .main-wrapper{
-    padding: 160px 0;
+    padding: 140px 0;
     .main-wrap{ 
         .content-wrap{
             text-align: center;
             .content{
                 button{
                     font-size: 86px;
-                    width: 40%;
+                    min-width: 140px;
+                    margin-bottom: 15px;
                     outline: none;
                     box-shadow: 2px 12px 8px -6px rgba(0,0,0,0.42);
                     background-color: #f3f3f3;
@@ -29,6 +28,8 @@
                     &:active{
                         transition-timing-function: ease-in-out;
                         box-shadow: none;
+                        background-color:#007bff;
+                        color: white;
                     }
                     
                 }
@@ -42,7 +43,31 @@
         }
         .limiter{
             text-align: center;
-            
+            display: flex;
+            input{
+                border: 1px solid rgba(0,0,0,.3);
+                border-radius: 7px 0 0 7px;
+                outline: none;
+                padding-left: 18px;
+                &::placeholder{
+                    opacity: .5;
+                }
+                &:focus{
+
+                    &::placeholder{
+                        opacity: 0;
+                    }
+                }
+            }
+            button{
+                border-radius: 0 7px 7px 0;
+                outline: none; 
+                padding: 10px 15px;
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
         }
     }
 }
